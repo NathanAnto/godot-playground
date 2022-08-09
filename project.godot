@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Scene",
+"language": "GDScript",
+"path": "res://Scenes/Scene.gd"
+} ]
+_global_script_class_icons={
+"Scene": ""
+}
+
 [application]
 
 config/name="godot-playground"

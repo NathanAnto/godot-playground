@@ -2,7 +2,7 @@
 
 [ext_resource path="res://external_assets/oak_woods_v1.0/decorations/sign.png" type="Texture" id=1]
 [ext_resource path="res://UI/Fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://Playground/Sign.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Playground/Sign.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=14]
 size = 8

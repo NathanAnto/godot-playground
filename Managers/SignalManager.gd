@@ -1,3 +1,3 @@
 extends Node
 
-signal change_scene(scene_path)
+signal change_scene(scene_name)

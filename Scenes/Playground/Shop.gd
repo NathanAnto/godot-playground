@@ -14,7 +14,7 @@ func _ready():
 func _process(_delta):
 	if canInteract and Input.is_action_just_pressed("interact"):
 		print("interacting with " + scene_name + " shop")
-		SignalManager.emit_signal("change_scene", "res://Scenes/"+scene_name+".tscn")
+		SignalManager.emit_signal("change_scene", scene_name);
 #		emit_signal("interact", scene_name);
 
 func _on_shop_body_entered(body):

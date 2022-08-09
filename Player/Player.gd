@@ -36,4 +36,3 @@ func _physics_process(_delta):
 
 func enter_shop_scene(scene_name):
 	print("entering shop " + scene_name)
-	
